@@ -2,19 +2,27 @@
 Get a specified number of yelp reviews - Client and API
 
 (1) Create a Yelp app to get a client ID and Secret and update in the API file:
---->>> https://www.yelp.com/developers/documentation/v3/authentication
+```
+https://www.yelp.com/developers/documentation/v3/authentication
+```
 
 (2) Install dependencies in requirement.txt (use of a virtual environment is recommended but not necessary )
 
 (3) Install Curl so that we can see the API JSON response on the console:
---->>> https://curl.haxx.se
+```
+https://curl.haxx.se
+```
 
 (4) Make sure "get-yelp-reviews-API.py" is in executable mode and run:
---->>> chmod a+x get-yelp-reviews-API.py
---->>> python get-yelp-reviews-API.py
+```
+chmod a+x get-yelp-reviews-API.py
+python get-yelp-reviews-API.py
+```
 
 (5) Launch webbroser and type:
---->>> http://localhost:5000
+```
+http://localhost:5000
+```
 
 NOTE: The API end-point requires authentication.  You can change the hardcoded credentials at will.
 Using hardcoded credentials for a PRODUCTION release is not the recommended approach; it is being done here purely for example purposes.
