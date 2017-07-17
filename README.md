@@ -8,7 +8,7 @@ https://www.yelp.com/developers/documentation/v3/authentication
 
 (2) Install dependencies in requirement.txt (use of a virtual environment is recommended but not necessary )
 
-(3) Install Curl so that we can see the API JSON response on the console:
+(3) Install Curl so that we can see the API JSON response in the console:
 ```
 https://curl.haxx.se
 ```
