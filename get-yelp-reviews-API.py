@@ -10,8 +10,6 @@ This program uses Yelp"s Fusion API to:
     that specific business
 (3) Query for a set number of business reviews using the passed value in "reviews" 
 
-For Detail API Documentation, please reference --->>> https://www.yelp.com/developers/documentation/v3
-
 Sample usage of the program, but running at the command line --->>>
 python get-yelp-reviews-v7.py --categories="pizza" --location="New York, NY" --name="Patsys Pizzeria" --reviews="5"
 
