@@ -1,5 +1,9 @@
 # get-yelp-reviews
 Get a specified number of yelp reviews - Client and API
+```
+method: GET
+uri: /get-reviews/api/v1.0/reviews/<categories>/<location>/<name>/<reviews_limit>
+```
 
 (1) Create a Yelp app to get a client ID and Secret and update in the API file:
 ```
