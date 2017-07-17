@@ -15,14 +15,6 @@ python get-yelp-reviews-v7.py --categories="pizza" --location="New York, NY" --n
 
 Alternatively, run without input ( hard-coded default values will take over... ), as such --->>>
 python get-yelp-reviews.py
-
-SAMPLE/ACTUAL YELP BUSINESS for PIZZA and NEW YORK, NY ( pick one )
-    Juliana's Pizza, Prince Street Pizza, Lombardi's , L'industrie Pizzeria
-    Patzeria Perfect Pizza, My Pie, Joe's Pizza, NY Pizza Suprema
-    B Side Pizza & Wine Bar, Adrienne's Pizzabar, La Margarita Pizza
-    Rubirosa, Stage Door Pizza, Patsys Pizzeria, Paulie Gee's
-    Sottocasa Pizzeria- Boerum Hill, Barboncino Pizza & Bar, Joe's Pizza
-    PN Wood Fired Pizza, B Squared
 """
 from __future__ import print_function
 
