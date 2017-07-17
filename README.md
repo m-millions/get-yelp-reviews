@@ -20,9 +20,9 @@ NOTE: The API end-point requires authentication.  You can change the hardcoded c
 Using hardcoded credentials for a PRODUCTION release is not the recommended approach; it is being done here purely for example purposes.
 
 (6) Run the following at the command line:
-
+```
 curl -u claudia123:reviews123 -i http://localhost:5000/get-reviews/api/v1.0/reviews/pizza/New+York,+NY/Juliana\'s+Pizza/5
-
+```
 (7) Smile. It worked!
 
 
