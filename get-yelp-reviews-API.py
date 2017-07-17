@@ -1,13 +1,6 @@
 #!flask/bin/python
 # -*- coding: utf-8 -*-
 """
-Requierments:
-Python 2.7.x
-pip install lxml-3.8.0 
-pip install requests
-pip install flask
-pip install flask-httpauth
-
 Description:
 
 This program uses Yelp"s Fusion API to:
