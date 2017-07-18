@@ -35,15 +35,6 @@ Using hardcoded credentials for a PRODUCTION release is not the recommended appr
 ```
 curl -u claudia123:reviews123 -i http://localhost:5000/get-reviews/api/v1.0/reviews/pizza/New+York,+NY/Juliana\'s+Pizza/5
 ```
-SAMPLE/ACTUAL YELP BUSINESS Names for PIZZA and NEW YORK, NY ( pick one ):
-```
-    Juliana's Pizza, Prince Street Pizza, Lombardi's , L'industrie Pizzeria
-    Patzeria Perfect Pizza, My Pie, Joe's Pizza, NY Pizza Suprema
-    B Side Pizza & Wine Bar, Adrienne's Pizzabar, La Margarita Pizza
-    Rubirosa, Stage Door Pizza, Patsys Pizzeria, Paulie Gee's
-    Sottocasa Pizzeria- Boerum Hill, Barboncino Pizza & Bar, Joe's Pizza
-    PN Wood Fired Pizza, B Squared
-```
 
 (7) Smile. It worked!
 
@@ -75,4 +66,15 @@ Sample JSON response:
   ],
   "uri": "http://localhost:5000/get-reviews/api/v1.0/reviews/pizza/New%20York%2C%20NY/Juliana%27s%20Pizza/5"
 }
+```
+
+
+ADDITIONAL SAMPLE/ACTUAL YELP BUSINESS Names for PIZZA and NEW YORK, NY as of 2017/07/18:
+```
+    Juliana's Pizza, Prince Street Pizza, Lombardi's , L'industrie Pizzeria
+    Patzeria Perfect Pizza, My Pie, Joe's Pizza, NY Pizza Suprema
+    B Side Pizza & Wine Bar, Adrienne's Pizzabar, La Margarita Pizza
+    Rubirosa, Stage Door Pizza, Patsys Pizzeria, Paulie Gee's
+    Sottocasa Pizzeria- Boerum Hill, Barboncino Pizza & Bar, Joe's Pizza
+    PN Wood Fired Pizza, B Squared
 ```
