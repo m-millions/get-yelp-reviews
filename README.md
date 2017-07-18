@@ -1,5 +1,5 @@
 # get-yelp-reviews
-Get a specified number of yelp reviews - Client and API
+Get a specified number of yelp reviews - API
 ```
 method: GET
 uri: /get-reviews/api/v1.0/reviews/<categories>/<location>/<name>/<reviews_limit>
