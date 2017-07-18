@@ -18,7 +18,6 @@ python get-yelp-reviews.py
 """
 from __future__ import print_function
 
-#import json
 import pprint
 import requests
 import sys
@@ -119,7 +118,6 @@ def make_public_reviews(uri_params):
     new_final_reviews = url_for('main', categories=uri_params[0], location=uri_params[1], \
                                         name=uri_params[2], reviews_limit=uri_params[3], \
                                         _external=True)
-#    new_final_reviews.append(final_reviews)
     return new_final_reviews
 
 #4 - Fourth function called - REMOVE this COMMENT AT WILL.
